@@ -1,0 +1,249 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/doctorate.png");
+    background-position: center;
+    background-size: contain;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+ul a{
+    text-decoration: none;
+}
+ul a{
+    color: #0152A8;
+    border: 2px solid#0152A8;
+    border-radius: 50px 0 50px 0;
+    padding: 0.3rem 0.9rem;
+    transition: 0.2s;
+}
+ul a:hover{
+    background-color: #0152A8;
+    color: white;
+    }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    }
+
+.contact{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cinfo{
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    /* position: relative;
+    top: 120px; */
+    align-items: center;
+    margin-top: 100px;
+    padding: 16px 32px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    background: linear-gradient(151.16deg, #DCEDFE 10.38%, #F5F7FF 95.44%);
+  }
+  
+  .card h2 {
+    font-family: Lato;
+font-size: 30px;
+font-weight: 700;
+line-height: 23px;
+ margin-bottom: 40px;
+ color: #093b66;
+}
+  
+  .card div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    
+  }
+  
+  .card label {
+    font-family: Montserrat;
+    color: #093b66;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .card input {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    outline: none;
+  }
+  textarea{
+    resize: none;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .btn button {
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: #143450;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    text-transform: capitalize;
+  }
+  .btn:hover{
+    transition: calc(1s);
+    transform: scale(1.2);
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 14px;
+    color: red;
+  }
+  
+  form p {
+    text-align: center;
+    font-size: 16px;
+  }
+  form a{
+    text-decoration: none;
+    color:#0a7ce0;
+  }
+
+footer{
+    
+    background-image: url(../images/log.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wholefoot{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.footinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+}
+.utility{
+    display: flex;
+    flex-direction: column;
+}
+.word{
+    width: 37%;
+}
+.word h3{
+    color: #1C1C1C;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+}
+.explore li{
+    list-style: none;
+    margin-top: 10px;
+    color: #21023a;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%;
+text-align: left;
+}
+.utility li{
+    list-style: none;
+    margin-top: 10px;
+    color: #21023a;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 200%;
+text-align: left; 
+}
+.explore, .utility h4{
+    color: #1C1C1C;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-align: center;
+}
+
+.book h4{
+    color: #1C1C1C;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 114.5%;
+} 
+.book p{
+    color: #21023a;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+button{
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+color: #0152A8;
+border: 2px solid#0152A8;
+border-radius: 10px 0 10px 0;
+}
+button:hover{
+    background-color: #0152A8;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,136 @@
+header{
+    margin: 30px;
+    }
+body{
+    background-image: url("../images/sign.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;}
+  
+  .card {
+    background-color: white;
+    /* position: relative;
+    top: 120px; */
+    margin-top: 20px;
+    padding: 16px 32px;
+    width: 30%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 2px 5px 28px -4px rgba(128, 128, 128, 0.75);
+  }
+  
+  .card h2 {
+    font-family: Lato;
+font-size: 30px;
+font-weight: 700;
+line-height: 23px;
+ margin-bottom: 40px;
+ color: #093b66;
+}
+  
+  .card div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .card label {
+    font-family: Montserrat;
+    color: #093b66;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .card input {
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    outline: none;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 14px;
+    color: red;
+  }
+  
+  form p {
+    text-align: center;
+    font-size: 16px;
+  }
+  form a{
+    text-decoration: none;
+    color:#0a7ce0;
+  }
+  .btn2{
+    background: #143450;
+    display: flex;
+    align-items: center;
+    position: relative;
+   width: 40%;
+   height: 40px;
+   border-radius: 10px;
+   color: white;
+   margin-left: 17%;
+   padding-left: 100px;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: 700;
+   
+  }
+  .btn2:hover{
+    transition: calc(1s);
+    transform: scale(1.2);
+  }
+  
+  /* @media screen and (max-width: 576px) {
+    .card {
+      padding: 8px 16px;
+      width: 90%;
+      max-width: 400px;
+    }
+  
+    .card h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+  
+    .card label {
+      font-size: 16px;
+    }
+  
+    .card input {
+      font-size: 16px;
+      font-weight: 400;
+      height: 30px;
+    }
+  
+    .message {
+      font-size: 12px;
+    }
+  
+    form p {
+      font-size: 14px;
+    }
+  } */
+  
