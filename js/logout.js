@@ -1,10 +1,10 @@
 const logoutBtn = document.querySelector('.logout')
 
 logoutBtn.addEventListener('click', () => {
-    // Clear the token from localStorage
+    //This will Clear the token from localStorage
     localStorage.removeItem('token');
     localStorage.removeItem('userId')
 
-    // Redirect back to the landing page
+    // take me back to the landing page
     window.location.href = 'index.html';
 });

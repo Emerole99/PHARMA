@@ -1,8 +1,9 @@
-
 header{
-    margin: 30px;
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../images/doctorate.png");
+  background-position: center;
+  background-size: contain;
 }
 ul{
     display: flex;
@@ -24,23 +25,149 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    /* background-image: url("../images/home.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center; */
 }
-.banner{
-    background-image: url("../images/image\ 1009.png");
-    background-position: center;
-    background-size: cover;
-    /* width: 80%; */
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0% 5%;
-    height: 70px;
+.sec1{
+  margin-top: 8%;
 
 }
+h1{
+  font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+}
+p{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+#vid{
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+.mission{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 90px;
+}
+h4{
+  font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.415em;
+text-align: left;
+}
+h2{
+  font-family: Montserrat;
+font-size: 30px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+}
+.mission p{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.mright{
+  margin-left: 20px;
+}
+.mright ol li{
+  list-style: circle;
+  font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.sec2{
+  margin-top: 70px;
+  background-image: url("../images/Background.png");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+.sec2 h1{
+  font-family: Montserrat;
+font-size: 50px;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+padding-top: 40px;
+}
+.sec2 button{
+  margin-top: 10px;
+  width: 15%;
+  margin-left: 43%;
+    padding: 10px;
+   font-family: Inter;
+    font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0f0f0f;
+  border: 2px solid#0152A8;
+  border-radius: 20px 0 20px 0;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: #0f0f0f;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button a:hover{
+  color: bisque;
+  
+}
+.value{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 90px;
+
+}
+.vleft{
+  width: 40%;
+}
+.vright{
+  width: 50%;
+}
+.valueinfo{
+  margin-top: 60px;
+  width: 80vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
 
 
 footer{
