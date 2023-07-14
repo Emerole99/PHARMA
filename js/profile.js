@@ -12,57 +12,6 @@ userInfo.addEventListener('click', () => {
   div.classList.toggle('hidden');
 });
 
-// Fetch user information from the server using the user ID and token
-fetch(`http://localhost:5000/user/${userId}`, {
-  method: 'GET',
-  headers: {
-    'Authorization': `Bearer ${token}`
-  }
-})
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Failed to fetch user information.');
-    }
-    return response.json();
-  })
-  .then(data => {
-    // Update the innerHTML of the userInfoDiv with the user's first name, last name, and an icon
-    const userInfoDiv = document.getElementById('userInfo');
-    userInfoDiv.innerHTML += `<p>Hi, ${data.first_name} ${data.last_name}!</p>`;
-  })
-  .catch(error => {
-    console.error(error);
-    alert('An error occurred while fetching user information.');
-  });
-
-// Fetch additional user information from the server using the user ID and token
-// fetch(`http://localhost:5000/user/${userId}`, {
-//   method: 'GET',
-//   headers: {
-//     'Authorization': `Bearer ${token}`
-//   }
-// })
-//   .then(response => {
-//     if (!response.ok) {
-//       throw new Error('Failed to fetch user information.');
-//     }
-//     return response.json();
-//   })
-//   .then(data => {
-//     // Update the innerHTML of the respective elements with the user's first name, last name, and email
-//     const Newname = document.getElementById('firstname');
-//     Newname.innerHTML = `${data.first_name}`;
-
-//     const lastname = document.getElementById('lastname');
-//     lastname.innerHTML = `${data.last_name}`;
-
-//     const email = document.getElementById('email');
-//     email.innerHTML = `${data.email}`;
-//   })
-//   .catch(error => {
-//     console.error(error);
-//     alert('An error occurred while fetching user info.');
-//   });
 // Make a request to fetch login info from the server
 fetch('http://localhost:5000/user/${userId}', {
   method: 'GET',
@@ -87,7 +36,13 @@ fetch('http://localhost:5000/user/${userId}', {
   lastnameElement.textContent = data.last_name;
   emailElement.textContent = data.email;
 })
+
 .catch(error => {
   console.error(error);
   alert('An error occurred while fetching login info.');
 });
+
+
+
+
+
